@@ -229,7 +229,15 @@ Jan 25 21:00:51 localhost.localdomain sshd[8641]: Accepted password for root fro
 
 
 5. 서비스 소프트웨어의 활용
+
 6. 모바일 운영체제의 활용
+- ios:
+- android: 오픈소스 플랫폼
+- windows mobile
+- tizen(삼성전자 주도)
+
+
+
 7. 네트워크 활용
 8. 데이터베이스 활용
 9. 개발도구와 플랫폼 활용
