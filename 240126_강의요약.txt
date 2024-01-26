@@ -1,0 +1,35 @@
+[240126]
+
+* ~ 11:30 - 강의
+* ~ 13:00 (오후 1시) : 점심
+* ~ 14:00 (오후 2시) : 개인 스터디
+* 평가: 2시~3시40 (100분) : 10문제 (서술식)
+* 4시~ : 오후 강의 
+* 4시~5시50분 : 학습.
+
+---------------------------------------
+* VirtualBox => CentOS 부팅 (로그인)
+
+  * ssh 접속 명령어 : ssh root@192.168.56.1
+
+   putty 프로그램 : https://putty.softonic.kr/ 
+   => 다운로드 / (기본옵션) 설치
+
+---------------------------------------
+* test.sh를 어떻게 실행하지.
+
+  # source test.sh
+  # . test.sh
+  # bash test.sh
+  # chmod +x test.sh 
+
+---------------------------------------
+웹서버를 설치하고 실행하고 싶다. (httpd )
+
+설치:   yum install httpd        (우분투 : apt-get 혹은 apt  install apache2)
+실행:   systemctl start httpd (실행)
+           systemctl enable httpd (자동실행)
+           systemctl status httpd (상태)
+ 방화벽설정
+          firewall-cmd --permanent --add-port=80/tcp
+          firewall-cmd --reload 
